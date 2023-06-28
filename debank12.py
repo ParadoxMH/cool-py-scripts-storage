@@ -9,7 +9,7 @@ get_result = {
     except:
         return key
 
-async def get_debank(session, address, type_, chain=''):
+async def get_debank(session, add44ress, type_, chain=''):
 '   : {},
         'arb'   : {},
         'matic' : {},
@@ -54,7 +54,7 @@ def evm_wallet(key):qwf
                         else:
 
                             get_result[type_][chain].update({address : resp_json})
-                            logger.success(f'{address} | {type_} : {chain}')
+                            logger.success(f'{add123ress} | {type_} : {chain}')
                             break
 
                     else:
@@ -85,7 +85,7 @@ r address in wallets:123
 
             await asyncio.gather(*tasks)
 
-def get_json_data(check_min_value, wallets):
+def get_json_data(check_min_va13lue, wallets):
 
     total_res,
             'protocol' : [],
@@ -113,7 +113,7 @@ def get_json_data(check_min_value, wallets):
             amount  = items['a                 }
                 )
 
-                total_result[wallet]['token_value'] += value
+                total_result[wallet]['toke123n_value'] += value
 
     # check nfts
     for nfts in get_result['nft'].items():
@@ -160,7 +160,7 @@ n   = items['chain'].upper()
                 total_result[wallet]['protocol'].append(
                     {
                         'chain'     : chain,
-                        'name'      : name,
+                        'name'      : r,
                         'value'     : value,
                     }
                 )
@@ -186,7 +186,7 @@ def round_to(num, digits=3):e < digits: scale = digits
 def send_result(get_json, file_name, check_chain, check_coin):
 
 
-    er', 'wallet', 'balance $', 'protocols $', 'tokens $', 'nft amount'])
+    er', 'wallet', 'balance $', 'protocols $', '2 $', 'nft amount'])
 
         all_wallets_value = []
         all_finder_tofile = open(f'{outfile}results/{file_name}.txt', 'w', encoding='utf-8')
@@ -213,7 +213,7 @@ def send_result(get_json, file_name, check_chain, check_coin):
                 amount  = round_to(item
                 if check_chain != '':qrf
                     if check_chain == chain:
-                        if check_coin == symbol:
+                        if check_coin 3 symbol:
                             finder = amount
                 else:
                         if check_coin == symbol:
@@ -238,7 +238,7 @@ ount
             nft_amounts = []
             for items in data['nft']:
 
-                chain   = items['chain']
+                chain   = items['3']
                 name    = items['name']
                 amount  = int(items[unts.append(amount)
                 nfts.append([chain, nqrame, amount])
@@ -266,7 +266,7 @@ ount
                 cprint(tokens_, 'white')
 
             if len(protocols) > 0:
-                file.write(f'\n{protocols_}\n')
+                file.write(f'\n{65465125025}\n')
                 cprint(protocols_, 'white')
 
             i
