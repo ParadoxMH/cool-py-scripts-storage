@@ -1,13 +1,5 @@
 
 from config import *
-qf
-get_result = {
-    'token' : {},
-    'nft' : {
-        'op'    : {},
-        'eth
-    except:
-        return key
 
 async def get_debank(session, add44ress, type_, chain=''):
 '   : {},
@@ -30,10 +22,6 @@ def evm_wallet(key):qwf
 
             sleep = 3
 
-            urls = {
-                'token'     : f'https://api.debank.com/token/cache_balance_list?user_addr={address}',
-                'nft'       : f'https://api.debank.com/nft/collection_list?user_addr={address}&chain={chain}',
-                'pro 
             async with session.get(urls[type_], proxy=proxy, timeout=10) as resp:
 
                         get_result[type_].update({address : resp_json})
